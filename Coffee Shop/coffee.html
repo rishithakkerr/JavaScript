@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coffe Shop</title>
+    <link rel="stylesheet" href="coffee.css">
+    <script src="coffee.js"></script>
+</head>
+<body>
+    <h1>Coffee Shop</h1>
+
+    <div class="box">
+        <p class="subtitle">Selcet your beverage: </p>
+
+
+        <label class="option">
+            <input type="radio" name="drink" value="65" id="tea">Tea <span>₹65</span>
+        </label>
+
+        <label class="option">
+            <input type="radio" name="drink" value="110" id="coffee">Coffee <span>₹110</span>
+        </label>
+        
+        <label class="option">
+            <input type="radio" name="drink" value="120" id="iceTea">Ice Tea <span>₹120</span>
+        </label>
+
+
+        <label class="option">
+            <input type="radio" name="drink" value="200" id="espresso">Espresso <span>₹200</span>
+        </label>
+
+        <button onclick="calculate()">Place Order</button>
+
+        <div id="result"></div>
+    </div>
+    
+</body>
+</html>
